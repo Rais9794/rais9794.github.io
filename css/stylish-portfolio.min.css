@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5,h6{font-weight:700}
 		.masthead h1 {
 			font-size:5.5rem}
 	}
-	
+
 .img-fluid {
 
     max-width: 100%;
@@ -307,3 +307,8 @@ a:active,a:focus,a:hover{
 
 .text-secondary{
 	color:#ecb807!important}
+
+.container #cp img {
+	width: 100px;
+	height: 100px;
+}
