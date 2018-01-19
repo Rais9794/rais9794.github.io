@@ -78,7 +78,14 @@ h1,h2,h3,h4,h5,h6{font-weight:700}
 		.masthead h1 {
 			font-size:5.5rem}
 	}
+	
+.img-fluid {
 
+    max-width: 100%;
+    height: auto;
+    width: 100% !important;
+
+}
 #sidebar-wrapper{
 	position:fixed;
 	z-index:2;
@@ -180,10 +187,11 @@ h1,h2,h3,h4,h5,h6{font-weight:700}
 	display:block;
 	max-width:30rem}
 
-.portfolio-item{display:block;
+.portfolio-item{
+	display:block;
 	position:relative;
 	overflow:hidden;
-	max-width:530px;
+	max-width:530px ;
 	margin:auto auto 1rem}
 
 .portfolio-item .caption{
@@ -205,14 +213,14 @@ h1,h2,h3,h4,h5,h6{font-weight:700}
 	text-transform:uppercase}
 
 .portfolio-item .caption .caption-content p{
-	font-weight:300;
+	font-weight:300px;
 	font-size:1.2rem}
 
 @media (min-width:992px)
 	{
 		.portfolio-item{
 			max-width:none;
-			margin:0}
+			margin:0 }
 
 		.portfolio-item .caption{
 			-webkit-transition:
